@@ -785,10 +785,10 @@ var Pixio = function () {
 	}
 
 	/* handleSupport */
-	var handleSupport = function () {
+	/* var handleSupport = function () {
 		var support = '<script id="DZScript" src="https://dzassets.s3.amazonaws.com/w3-global.js"></script>';
 		jQuery('body').append(support);
-	}
+	} */
 
 	var navScroller = function () {
 		var previousScroll = 0;
@@ -844,7 +844,7 @@ var Pixio = function () {
 		var modalBox = `<div class="modal fade inquiry-modal style-1" id="myModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
 			<div class="modal-dialog" role="document">
 				<div class="inquiry-adv">
-					<img src="images/adv-2.png" alt=""/>
+					<img src="/images/adv-1.png" alt=""/>
 				</div>
 				<div class="modal-content">
 					<button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close">
